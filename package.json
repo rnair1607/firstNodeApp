@@ -11,10 +11,9 @@
     "mimic-response": "^1.0.1",
     "minimist": "^1.2.5",
     "ms": "^2.1.2",
-    "nodemon": "^2.0.4",
     "nopt": "^1.0.10",
-    "normalize-url": "^4.5.0",
     "normalize-path": "^3.0.0",
+    "normalize-url": "^4.5.0",
     "p-cancelable": "^1.1.0",
     "picomatch": "^2.2.2",
     "prepend-http": "^2.0.0",
@@ -24,10 +23,13 @@
     "semver-diff": "^3.1.1",
     "signal-exit": "^3.0.3"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
   "scripts": {
     "start": "node app",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app"
   },
   "repository": {
     "type": "git",
