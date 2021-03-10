@@ -1,45 +1,25 @@
 {
-  "name": "firstNodeApp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
   "dependencies": {
-    "anymatch": "^3.1.1",
-    "clone-response": "^1.0.2",
-    "decompress-response": "^3.3.0",
-    "make-dir": "^3.1.0",
-    "mimic-response": "^1.0.1",
-    "minimist": "^1.2.5",
-    "ms": "^2.1.2",
-    "nopt": "^1.0.10",
-    "normalize-path": "^3.0.0",
-    "normalize-url": "^4.5.0",
-    "p-cancelable": "^1.1.0",
-    "picomatch": "^2.2.2",
-    "prepend-http": "^2.0.0",
-    "pupa": "^2.0.1",
-    "readdirp": "^3.4.0",
-    "responselike": "^1.0.2",
-    "semver-diff": "^3.1.1",
-    "signal-exit": "^3.0.3"
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  },
+  "name": "firstnodeapp",
+  "version": "1.0.0",
+  "main": "app.js",
   "scripts": {
-    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon app"
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rnair1607/firstNodeApp.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rnair1607/firstNodeApp/issues"
   },
-  "homepage": "https://github.com/rnair1607/firstNodeApp#readme"
+  "homepage": "https://github.com/rnair1607/firstNodeApp#readme",
+  "description": ""
 }
